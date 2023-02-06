@@ -238,7 +238,7 @@
   </head>
 
   <body class="gradient">
-    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
+    {% comment %} <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
 
@@ -247,7 +247,7 @@
     {%- endif -%}
 
     {% section 'announcement-bar' %}
-    {% section 'header' %}
+    {% section 'header' %} {% endcomment %}
 
 
     {% comment %} ----------- Main Content --------------- {% endcomment %}
