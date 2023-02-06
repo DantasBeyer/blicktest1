@@ -6,7 +6,7 @@
         "title": "Featured products",
         "heading_size": "h2",
         "description": "",
-        "show_description": false,
+        "show_description": true,
         "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
