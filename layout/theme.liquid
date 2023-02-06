@@ -250,10 +250,10 @@
     {% section 'header' %}
 
 
-    {% comment %} ------------------------------------------- {% endcomment %}
+    {% comment %} ----------- Main Content --------------- {% endcomment %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
     
-    <section>
+   {% comment %}  <section>
       <div id="imgGallery">
     <img src="/Bilder Test Task 2/dsc02531_1412x.jpeg" alt="pic">
       </div>
@@ -261,9 +261,9 @@
 
       </div>
      </section> 
-  <h1>a</h1>
+  <h1>a</h1 {% endcomment %}
 
-      {% comment %} {{ content_for_layout }} {% endcomment %}
+       {{ content_for_layout }} 
     </main>
 
     {% section 'footer' %}
