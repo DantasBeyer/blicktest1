@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
@@ -7,7 +8,7 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-
+    <link rel="stylesheet" href="../assets/imgGallery.css">
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -247,8 +248,21 @@
 
     {% section 'announcement-bar' %}
     {% section 'header' %}
+
+
+    {% comment %} ------------------------------------------- {% endcomment %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      
+    
+    <section>
+      <div id="imgGallery">
+
+      </div>
+      <div id="producDetails">
+
+      </div>
+     </section> 
+  
+
       {% comment %} {{ content_for_layout }} {% endcomment %}
     </main>
 

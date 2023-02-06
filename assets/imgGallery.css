@@ -1,0 +1,13 @@
+/* Layout Properties */
+.imgGallery{
+
+
+top: 184px;
+left: 521px;
+width: 480px;
+height: 480px;
+/* UI Properties */
+/* background: transparent url('img/Bild 1.png') 0% 0% no-repeat padding-box; */
+border-radius: 5px;
+opacity: 1;
+}
