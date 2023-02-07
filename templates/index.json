@@ -16,56 +16,15 @@
     "f10130df-8e5b-4ad3-bc10-b62680096263": {
       "type": "featured-product",
       "blocks": {
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-2": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-3": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
-        },
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-4": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-5": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-6": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-0",
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-1",
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-2",
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-3",
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-4",
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-5",
-        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-6"
+        "template--17811646054691__f10130df-8e5b-4ad3-bc10-b62680096263-16757739248bee64ed-3"
       ],
       "settings": {
         "product": "neoric-neon",
