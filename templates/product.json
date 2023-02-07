@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "38153415-b2e3-4341-aa78-17353660ff4a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Apple Watch Armband"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -19,37 +25,32 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
+          }
+        },
+        "d2340cf6-8725-4f3f-b061-c16b6ffdb14e": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
           }
         }
       },
       "block_order": [
         "title",
+        "38153415-b2e3-4341-aa78-17353660ff4a",
         "price",
         "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "description"
+        "description",
+        "d2340cf6-8725-4f3f-b061-c16b6ffdb14e"
       ],
       "settings": {
         "enable_sticky_info": true,
         "media_position": "left",
         "gallery_layout": "columns",
         "media_size": "medium",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
