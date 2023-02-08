@@ -574,7 +574,9 @@ a.product__text {
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
   color: rgb(var(--color-foreground));
   display: flex;
-  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 3rem;
   width: 3rem;
   position: absolute;
