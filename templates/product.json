@@ -53,8 +53,8 @@
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "product-recommendations": {
