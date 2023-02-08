@@ -166,7 +166,7 @@
   margin: 0 0 1.2rem 0;
   max-width: 37rem;
   min-width: fit-content;
-  border: none;
+  border: node;
 }
 
 variant-radios,
@@ -574,6 +574,7 @@ a.product__text {
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
   color: rgb(var(--color-foreground));
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 3rem;
