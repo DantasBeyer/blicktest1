@@ -1066,7 +1066,7 @@ a.product__text {
 
   .thumbnail-slider {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .thumbnail-slider .thumbnail-list.slider {
