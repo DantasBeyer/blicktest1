@@ -1,3 +1,8 @@
+.vertical{
+  display:flex;
+  flexdirection: column;
+  
+}
 .product {
   margin: 0;
 }
