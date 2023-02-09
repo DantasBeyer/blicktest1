@@ -143,7 +143,6 @@ slider-component.slider-component-full-width {
   .slider--desktop {
     position: relative;
     flex-wrap: inherit;
-    flex-direction: column;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
