@@ -190,10 +190,7 @@
             >
               {% render 'icon-caret' %}
             </button>
-            <ul
-              id="Slider-Thumbnails-{{ section.id }}"
-              class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}"
-            >
+            
               {%- if featured_media != null -%}
                 {%- liquid
                   capture media_index
